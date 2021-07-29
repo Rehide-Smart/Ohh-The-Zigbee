@@ -1,0 +1,578 @@
+{
+  "_version": "1.0",
+  "project": {
+    "_id": "5ff458be951373001c4dde16",
+    "name": "ohh the zigbee",
+    "teamID": "vrk1XNJE3p",
+    "devVersion": "5ff458be1b53e400072bb26c",
+    "platform": "alexa",
+    "platformData": {
+      "products": [],
+      "liveVersion": "5ff45b1e827745001c462925"
+    },
+    "members": [],
+    "image": "https://s3.amazonaws.com/com.getstoryflow.api.images/1609849457023-maxresdefault.png",
+    "creatorID": 5898,
+    "createdAt": "2021-01-05T12:17:02.000Z"
+  },
+  "version": {
+    "_id": "5ff458be1b53e400072bb26c",
+    "name": "Initial Version",
+    "projectID": "5ff458be951373001c4dde16",
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale"
+    ],
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "AMAZON.CancelIntent",
+          "name": "AMAZON.CancelIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.FallbackIntent",
+          "name": "AMAZON.FallbackIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.HelpIntent",
+          "name": "AMAZON.HelpIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.LoopOffIntent",
+          "name": "AMAZON.LoopOffIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.LoopOnIntent",
+          "name": "AMAZON.LoopOnIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.MoreIntent",
+          "name": "AMAZON.MoreIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.NextIntent",
+          "name": "AMAZON.NextIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.NoIntent",
+          "name": "AMAZON.NoIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.YesIntent",
+          "name": "AMAZON.YesIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.StopIntent",
+          "name": "AMAZON.StopIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.ResumeIntent",
+          "name": "AMAZON.ResumeIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.RepeatIntent",
+          "name": "AMAZON.RepeatIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.PreviousIntent",
+          "name": "AMAZON.PreviousIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.PauseIntent",
+          "name": "AMAZON.PauseIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.StartOverIntent",
+          "name": "AMAZON.StartOverIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.ShuffleOnIntent",
+          "name": "AMAZON.ShuffleOnIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.ShuffleOffIntent",
+          "name": "AMAZON.ShuffleOffIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.SelectIntent",
+          "name": "AMAZON.SelectIntent",
+          "slots": [],
+          "inputs": []
+        }
+      ],
+      "settings": {
+        "events": "{\r\n      \"publications\": [\r\n         {\r\n          \"eventName\": \"AMAZON.MessageAlert.Activated\"\r\n        }\r\n      ],\r\n      \"endpoint\": {\r\n        \"uri\": \"https://voiceflow.app/state/skill/{version}\",\r\n        \"sslCertificateType\": \"Wildcard\"\r\n      },\r\n      \"subscriptions\": [\r\n        {\r\n          \"eventName\": \"SKILL_PROACTIVE_SUBSCRIPTION_CHANGED\"\r\n        }\r\n      ]\r\n}",
+        "customInterface": false,
+        "session": {
+          "type": "restart"
+        },
+        "repeat": "ALL",
+        "accountLinking": null,
+        "error": null
+      },
+      "publishing": {
+        "summary": "Hear your Echo say ohh the zigbee",
+        "invocations": [
+          "open ohh the zigbee",
+          "start ohh the zigbee",
+          "launch ohh the zigbee"
+        ],
+        "smallIcon": "https://s3.amazonaws.com/com.getstoryflow.api.images/1609849509944-maxresdefault.png",
+        "largeIcon": "https://s3.amazonaws.com/com.getstoryflow.api.images/1609849457023-maxresdefault.png",
+        "hasAds": false,
+        "personal": false,
+        "forExport": true,
+        "invocationName": "ohh the zigbee",
+        "hasPurchase": false,
+        "forChildren": false,
+        "description": "Part of The Hibbert Home Tech collection of sounds.\n\nFor entertainment purposes",
+        "instructions": "launch ohh the zigbee",
+        "privacyPolicy": "https://creator.voiceflow.com/creator/terms?name=Beady%20Boy&skill=ohh%20the%20zigbee&children=false",
+        "termsAndConditions": "https://creator.voiceflow.com/creator/terms?name=Beady%20Boy&skill=ohh%20the%20zigbee&children=false",
+        "keywords": "zigbee",
+        "category": "GAMES",
+        "locales": [
+          "en-US",
+          "en-GB",
+          "en-CA",
+          "en-AU",
+          "en-IN"
+        ],
+        "updatesDescription": null
+      },
+      "status": {
+        "stage": "DEV"
+      }
+    },
+    "rootDiagramID": "5ff458be1b53e400072bb26d",
+    "creatorID": 5898
+  },
+  "diagrams": {
+    "5ff458be1b53e400072bb26e": {
+      "_id": "5ff458be1b53e400072bb26e",
+      "name": "End Session",
+      "offsetX": 206.51942553425963,
+      "offsetY": 119.61838012311347,
+      "zoom": 93.10542690398123,
+      "variables": [],
+      "nodes": {
+        "5f9f562f11b31520c2a2a6e7": {
+          "nodeID": "5f9f562f11b31520c2a2a6e7",
+          "type": "start",
+          "coords": [
+            360,
+            120
+          ],
+          "data": {
+            "name": "Start",
+            "color": "standard",
+            "ports": [
+              {
+                "type": "",
+                "target": "5f9f562f11b31520c2a2a6e8",
+                "id": "5fde6fe15bc1c56319fad3b2"
+              }
+            ],
+            "steps": []
+          }
+        },
+        "5f9f562f11b31520c2a2a6e8": {
+          "nodeID": "5f9f562f11b31520c2a2a6e8",
+          "type": "speak",
+          "data": {
+            "randomize": false,
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Okay, this session is now ending."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "5f9f562f11b31520c2a2a6ea",
+                "id": "5fde6fe15bc1c56319fad3b3"
+              }
+            ]
+          }
+        },
+        "5f9f562f11b31520c2a2a6e9": {
+          "nodeID": "5f9f562f11b31520c2a2a6e9",
+          "type": "block",
+          "coords": [
+            805.9688890631405,
+            120.94792332948695
+          ],
+          "data": {
+            "name": "Exit",
+            "color": "red",
+            "steps": [
+              "5f9f562f11b31520c2a2a6e8",
+              "5f9f562f11b31520c2a2a6ea"
+            ]
+          }
+        },
+        "5f9f562f11b31520c2a2a6ea": {
+          "nodeID": "5f9f562f11b31520c2a2a6ea",
+          "type": "exit",
+          "data": {
+            "ports": [
+              {
+                "type": "",
+                "target": null,
+                "id": "5fde6fe15bc1c56319fad3b4"
+              }
+            ]
+          }
+        }
+      },
+      "children": [],
+      "versionID": "5ff458be1b53e400072bb26c",
+      "creatorID": 5898,
+      "modified": 1609849022
+    },
+    "5ff458be1b53e400072bb26f": {
+      "_id": "5ff458be1b53e400072bb26f",
+      "name": "Help User",
+      "offsetX": 196.5723910133667,
+      "offsetY": 143.32399142840148,
+      "zoom": 76.41405779564307,
+      "variables": [],
+      "nodes": {
+        "5f9f562f11b31520c2a2a6e1": {
+          "nodeID": "5f9f562f11b31520c2a2a6e1",
+          "type": "start",
+          "coords": [
+            360,
+            120
+          ],
+          "data": {
+            "name": "Start",
+            "color": "standard",
+            "ports": [
+              {
+                "type": "",
+                "target": "5f9f562f11b31520c2a2a6e2",
+                "id": "5fde75904a001a20aa671626"
+              }
+            ],
+            "steps": []
+          }
+        },
+        "5f9f562f11b31520c2a2a6e2": {
+          "nodeID": "5f9f562f11b31520c2a2a6e2",
+          "type": "speak",
+          "data": {
+            "randomize": false,
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "You said help. Do you want to continue?"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "5f9f562f11b31520c2a2a6e4",
+                "id": "5fde75904a001a20aa671627"
+              }
+            ]
+          }
+        },
+        "5f9f562f11b31520c2a2a6e3": {
+          "nodeID": "5f9f562f11b31520c2a2a6e3",
+          "type": "block",
+          "coords": [
+            808.6506721313523,
+            121.24568139701532
+          ],
+          "data": {
+            "name": "Help Message",
+            "color": "standard",
+            "steps": [
+              "5f9f562f11b31520c2a2a6e2",
+              "5f9f562f11b31520c2a2a6e4"
+            ]
+          }
+        },
+        "5f9f562f11b31520c2a2a6e4": {
+          "nodeID": "5f9f562f11b31520c2a2a6e4",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "reprompt",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": "Do you want to continue?"
+                },
+                {
+                  "voice": "Alexa",
+                  "content": "Please say yes or no."
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "AMAZON.YesIntent",
+                "mappings": []
+              },
+              {
+                "intent": "AMAZON.NoIntent",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "ports": [
+              {
+                "type": "",
+                "target": null,
+                "id": "5fde75904a001a20aa671628"
+              },
+              {
+                "type": "",
+                "target": null,
+                "id": "5fde75904a001a20aa671629"
+              },
+              {
+                "type": 2,
+                "target": "5f9f562f11b31520c2a2a6e6",
+                "id": "5fde75904a001a20aa67162a"
+              }
+            ]
+          }
+        },
+        "5f9f562f11b31520c2a2a6e5": {
+          "nodeID": "5f9f562f11b31520c2a2a6e5",
+          "type": "exit",
+          "data": {
+            "ports": []
+          }
+        },
+        "5f9f562f11b31520c2a2a6e6": {
+          "nodeID": "5f9f562f11b31520c2a2a6e6",
+          "type": "block",
+          "coords": [
+            1295.0066750587603,
+            408.4923354011805
+          ],
+          "data": {
+            "name": "Exit",
+            "color": "red",
+            "steps": [
+              "5fde75c44a001a20aa67166d",
+              "5f9f562f11b31520c2a2a6e5"
+            ]
+          }
+        },
+        "5fde75c44a001a20aa67166d": {
+          "nodeID": "5fde75c44a001a20aa67166d",
+          "type": "speak",
+          "data": {
+            "randomize": false,
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Bye for now."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "5f9f562f11b31520c2a2a6e5",
+                "id": "5fde75c44a001a20aa671670"
+              }
+            ]
+          }
+        }
+      },
+      "children": [],
+      "versionID": "5ff458be1b53e400072bb26c",
+      "creatorID": 5898,
+      "modified": 1609849022
+    },
+    "5ff458be1b53e400072bb26d": {
+      "_id": "5ff458be1b53e400072bb26d",
+      "name": "ROOT",
+      "offsetX": 193,
+      "offsetY": -66.39999999999995,
+      "zoom": 80,
+      "variables": [],
+      "nodes": {
+        "5f9f562f11b31520c2a2a6de": {
+          "nodeID": "5f9f562f11b31520c2a2a6de",
+          "type": "start",
+          "coords": [
+            360,
+            120
+          ],
+          "data": {
+            "name": "Start",
+            "color": "standard",
+            "ports": [
+              {
+                "type": "",
+                "target": "5ff458dc8b15d2a34f2560c2",
+                "id": "5fde6fac5bc1c56319fad39b"
+              }
+            ],
+            "steps": [
+              "5f9f562f11b31520c2a2a6df",
+              "5f9f562f11b31520c2a2a6e0",
+              "5fde6fb05bc1c56319fad3a0"
+            ]
+          }
+        },
+        "5f9f562f11b31520c2a2a6df": {
+          "nodeID": "5f9f562f11b31520c2a2a6df",
+          "type": "command",
+          "data": {
+            "name": "Help",
+            "intent": "AMAZON.HelpIntent",
+            "diagramID": "5ff458be1b53e400072bb26f",
+            "mappings": [],
+            "next": null,
+            "ports": []
+          }
+        },
+        "5f9f562f11b31520c2a2a6e0": {
+          "nodeID": "5f9f562f11b31520c2a2a6e0",
+          "type": "command",
+          "data": {
+            "name": "Stop",
+            "intent": "AMAZON.StopIntent",
+            "diagramID": "5ff458be1b53e400072bb26e",
+            "mappings": [],
+            "next": null,
+            "ports": []
+          }
+        },
+        "5fde6fb05bc1c56319fad3a0": {
+          "nodeID": "5fde6fb05bc1c56319fad3a0",
+          "type": "command",
+          "data": {
+            "name": "Cancel",
+            "intent": "AMAZON.CancelIntent",
+            "diagramID": "5ff458be1b53e400072bb26e",
+            "mappings": [],
+            "next": null,
+            "ports": []
+          }
+        },
+        "5ff458dc8b15d2a34f2560c2": {
+          "nodeID": "5ff458dc8b15d2a34f2560c2",
+          "type": "speak",
+          "data": {
+            "randomize": false,
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://s3.amazonaws.com/com.getstoryflow.audio.production/1609849126382-oog-fhe-zigbee.wav"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "6049ee07f25cfc667e058671",
+                "id": "5ff458dc8b15d2a34f2560c4"
+              }
+            ]
+          }
+        },
+        "5ff458dc8b15d2a34f2560c5": {
+          "nodeID": "5ff458dc8b15d2a34f2560c5",
+          "type": "block",
+          "coords": [
+            847.5,
+            291.49999999999994
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "5ff458dc8b15d2a34f2560c2"
+            ]
+          }
+        },
+        "6049ee07f25cfc667e058671": {
+          "nodeID": "6049ee07f25cfc667e058671",
+          "type": "permission",
+          "data": {
+            "permissions": [
+              "alexa::devices:all:notifications:write"
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": null,
+                "id": "6049ee07f25cfc667e058673"
+              }
+            ]
+          }
+        },
+        "6049ee07f25cfc667e058674": {
+          "nodeID": "6049ee07f25cfc667e058674",
+          "type": "block",
+          "coords": [
+            763.75,
+            497.99999999999994
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "6049ee07f25cfc667e058671"
+            ]
+          }
+        }
+      },
+      "children": [
+        "5ff458be1b53e400072bb26f",
+        "5ff458be1b53e400072bb26e"
+      ],
+      "versionID": "5ff458be1b53e400072bb26c",
+      "creatorID": 5898,
+      "modified": 1627584495
+    }
+  }
+}
